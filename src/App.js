@@ -6,20 +6,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-const ExampleToast = ({ children }) => {
-  const [show, toggleShow] = useState(true);
-
   return (
     <div className="App">
-<>
-      {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
-      <Toast show={show} onClose={() => toggleShow(false)}>
-        <Toast.Header>
-          <strong className="mr-auto">React-Bootstrap</strong>
-        </Toast.Header>
-        <Toast.Body>{children}</Toast.Body>
-      </Toast>
-    </>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
