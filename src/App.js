@@ -8,7 +8,15 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+       
+EnvOS - Environmental Operating Systems
+
+ </p>
+
+
+
+
+
         <a
           className="App-link"
           href="https://envos.net"
