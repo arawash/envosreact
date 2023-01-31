@@ -8,8 +8,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^3.0.4",
-    "react-bootstrap" :"",
-    "bootstrap":""
+    "react-bootstrap" :"^1.5.2",
+    "bootstrap":"^4.6.0"
 
   },
   "scripts": {
